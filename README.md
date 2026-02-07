@@ -1,4 +1,5 @@
 # sdr4fun
+
 Sharing various stuff on Software-Defined Radio :
 
 - [Introduction](#introduction)
@@ -8,59 +9,145 @@ Sharing various stuff on Software-Defined Radio :
 - [Scripts](#scripts)
 - [Resources](#resources)
 - [Use-cases](#use-cases)
+- [References](#references)
 
 ## Introduction
 
-[Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) also named SDR is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system.
+> _[Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) also named SDR is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system (source: Wikipedia)._
 
 ## Hardware
 
 There are a few hardware devices you could use to start playing with SDR:
 
-* Generic USB DVB-T USB with RTL2832U chipset and R860 tuner
-* USB dongles from [RTL-SDR Blog](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
-* USB dongles from [Nooelec](https://www.nooelec.com/store/)
-* from [Nooelec](https://www.nooelec.com/store/)
-* HackRF One device from [Great Scott Gadgets](https://greatscottgadgets.com/hackrf/one/)
-* ... (to be completed)
+- Generic USB DVB-T USB with RTL2832U chipset and R860 tuner
+- USB dongles from [RTL-SDR Blog](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
+- USB dongles from [Nooelec](https://www.nooelec.com/store/)
+- from [Nooelec](https://www.nooelec.com/store/)
+- HackRF One device from [Great Scott Gadgets](https://greatscottgadgets.com/hackrf/one/)
+- ...
 
 ## Software
 
 There are a few software applications you could use to start playing with SDR:
 
-* [Gqrx](http://gqrx.dk/)
-* [SDR Angel](https://rgetz.github.io/sdrangel/)
-* [SDR Console](https://www.sdr-radio.com/Console)
-* [SDR#](https://airspy.com/download/)
-* [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus)
-* ... (to be completed)
+- [Gqrx](http://gqrx.dk/)
+- [SDR Angel](https://rgetz.github.io/sdrangel/)
+- [SDR Console](https://www.sdr-radio.com/Console)
+- [SDR#](https://airspy.com/download/)
+- [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus)
+- ...
 
 ## Tools
 
 There are a few software add-ons you could also use to start playing with SDR:
 
-* [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
-* [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
-* [multimon-ng](https://github.com/EliasOenal/multimon-ng) : decoder for multiple protocols
-* [rtl-sdr](https://osmocom.org/projects/rtl-sdr/wiki) : RTL drivers and utils
-* [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
-* [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
-* ... (to be completed)
+- [direwolf](https://github.com/wb2osz/direwolf) : Decoded Information from Radio Emissions for Windows Or Linux Fans
+- [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
+- [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
+- [multimon-ng](https://github.com/EliasOenal/multimon-ng) : decoder for multiple protocols
+- [rtl-sdr](https://osmocom.org/projects/rtl-sdr/wiki) : RTL drivers and utils
+- [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
+- [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
+- ...
 
 ## Scripts
 
 Some scripts to use for SDR.
 
+**Scanning Airband**
+
+```
+GAIN=50
+SQUELCH=-20
+FREQ=118M:137M:25k
+RATE=12k
+
+rtl_fm -M am -f ${FREQ} -s ${RATE} -g ${GAIN} -l ${SQUELCH} \
+ | play --volume ${VOLUME} --rate ${RATE} --type raw --encoding s --bits 16 --channels 1 -V3 -
+```
+
+**Listening to FM station**
+
+```
+FREQ=105.5M
+PPM=-36
+GAIN=50
+SQUELCH=0
+
+rtl_fm -g ${GAIN} -f ${FREQ}M -M fm -s 180k -E deemp -p ${PPM} -l ${SQUELCH} \
+ | play --rate 180k --type raw --encoding s --bits 16 --channels 1 -V2 - lowpass 16k
+```
+
+**Decoding PMR flows**
+
+```
+PORT=7355
+
+ncat -l -u -p ${PORT} \
+ | dsd -i - -o pa:1
+```
+
+**Decoding POCSAG flows**
+
+```
+PORT=7355
+
+ncat -l -u -p ${PORT} \
+ | sox --type raw -esigned-integer --bits 16 --rate 48000 - --type raw -esigned-integer --bits 16 --rate 22050 - \
+ | multimon-ng -n -t raw -p -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -a FLEX -a FLEX_NEXT -f auto --timestamp /dev/stdin
+```
+
 ## Resources
 
 There are a few web resources helpful when you would start playing with SDR:
 
-* [Priyom.org](https://priyom.org/)
-* [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
-* ... (to be completed)
+- [Priyom.org](https://priyom.org/)
+- [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
+- ...
 
 ## Use Cases
 
-Some use-case for SDR.
+There are a few use-cases you could consider to start playing with SDR:
 
+### Airband traffic
 
+### AM radios
+
+### ADS-B tracking
+
+### APRS decoding
+
+### FM radios
+
+### HAM radio
+
+### LPD433 decoding
+
+### Numbers stations
+
+### OTH Radar monitoring
+
+### PMR446 decoding
+
+### POCSAG decoding
+
+## References
+
+- [Airband](https://en.wikipedia.org/wiki/Airband)
+- [ALS162 time signal
+  ](https://en.wikipedia.org/wiki/ALS162_time_signal)
+- [AM broadcasting](https://en.wikipedia.org/wiki/AM_broadcasting)
+- [Amateur Radio](https://en.wikipedia.org/wiki/Amateur_radio) (HAM)
+- [Automatic Dependent Surveillance Broadcast](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) (ADS-B)
+- [Automatic Packet Reporting System](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) (APRS)
+- [Duga radar](https://en.wikipedia.org/wiki/Duga_radar) (aka _Russian Woodpecker_)
+- [Earth–Moon–Earth communication](https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication) (Moon bouncing)
+- [FM broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
+- [GRAVES System](<https://en.wikipedia.org/wiki/GRAVES_(system)>)
+- [Low Power Device 433 MHz](https://en.wikipedia.org/wiki/LPD433) (LPD433)
+- [Meteor burst communications](https://en.wikipedia.org/wiki/Meteor_burst_communications) (Meteor Scatter)
+- [Numbers station](https://en.wikipedia.org/wiki/Numbers_station)
+- [Over-the-horizon radar](https://en.wikipedia.org/wiki/Over-the-horizon_radar) (OTH radar)
+- [Private Mobile Radio, 446 MHz](https://en.wikipedia.org/wiki/PMR446) (PMR446)
+- [Radio-paging code No. 1](https://en.wikipedia.org/wiki/POCSAG) (POCSAG)
+- [UVB-76](https://en.wikipedia.org/wiki/UVB-76) (aka _The Buzzer_)
