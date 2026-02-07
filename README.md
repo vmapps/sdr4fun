@@ -1,14 +1,12 @@
 # sdr4fun
 Sharing various stuff on Software-Defined Radio :
 
-
-Collection of various Python scripts using Scapy library to scan networks, sniff traffic or traceroute packets :
-
 - [Introduction](#introduction)
 - [Hardware](#hardware)
 - [Software](#software)
 - [Tools](#tools)
 - [Scripts](#scripts)
+- [Resources](#resources)
 - [Use-cases](#use-cases)
 
 ## Introduction
@@ -24,18 +22,42 @@ There are a few hardware devices you could use to start playing with SDR:
 * USB dongles from [Nooelec](https://www.nooelec.com/store/)
 * from [Nooelec](https://www.nooelec.com/store/)
 * HackRF One device from [Great Scott Gadgets](https://greatscottgadgets.com/hackrf/one/)
+* ... (to be completed)
 
 ## Software
 
-Some software to use for SDR.
+There are a few software applications you could use to start playing with SDR:
+
+* [Gqrx](http://gqrx.dk/)
+* [SDR Angel](https://rgetz.github.io/sdrangel/)
+* [SDR Console](https://www.sdr-radio.com/Console)
+* [SDR#](https://airspy.com/download/)
+* [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus)
+* ... (to be completed)
 
 ## Tools
 
-Some tools to use for SDR.
+There are a few software add-ons you could also use to start playing with SDR:
+
+* [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
+* [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
+* [multimon-ng](https://github.com/EliasOenal/multimon-ng) : decoder for multiple protocols
+* [rtl-sdr](https://osmocom.org/projects/rtl-sdr/wiki) : RTL drivers and utils
+* [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
+* [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
+* ... (to be completed)
 
 ## Scripts
 
 Some scripts to use for SDR.
+
+## Resources
+
+There are a few web resources helpful when you would start playing with SDR:
+
+* [Priyom.org](https://priyom.org/)
+* [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
+* ... (to be completed)
 
 ## Use Cases
 
