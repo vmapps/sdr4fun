@@ -6,9 +6,9 @@ Sharing various stuff on Software-Defined Radio :
 - [Hardware](#hardware)
 - [Software](#software)
 - [Tools](#tools)
+- [Use-cases](#use-cases)
 - [Scripts](#scripts)
 - [Resources](#resources)
-- [Use-cases](#use-cases)
 - [References](#references)
 
 ## Introduction
@@ -49,6 +49,32 @@ There are a few software add-ons you could also use to start playing with SDR:
 - [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
 - [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
 - ...
+
+## Use Cases
+
+There are a few use-cases you could consider to start playing with SDR:
+
+### Airband traffic
+
+### AM radios
+
+### ADS-B tracking
+
+### APRS decoding
+
+### FM radios
+
+### HAM radio
+
+### LPD433 decoding
+
+### Numbers stations
+
+### OTH Radar monitoring
+
+### PMR446 decoding
+
+### POCSAG decoding
 
 ## Scripts
 
@@ -104,32 +130,6 @@ There are a few web resources helpful when you would start playing with SDR:
 - [Priyom.org](https://priyom.org/)
 - [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
 - ...
-
-## Use Cases
-
-There are a few use-cases you could consider to start playing with SDR:
-
-### Airband traffic
-
-### AM radios
-
-### ADS-B tracking
-
-### APRS decoding
-
-### FM radios
-
-### HAM radio
-
-### LPD433 decoding
-
-### Numbers stations
-
-### OTH Radar monitoring
-
-### PMR446 decoding
-
-### POCSAG decoding
 
 ## References
 
