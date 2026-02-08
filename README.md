@@ -19,23 +19,27 @@ Sharing various stuff on Software-Defined Radio :
 
 There are a few hardware devices you could use to start playing with SDR:
 
-- Generic USB DVB-T USB with RTL2832U chipset and R860 tuner
-- USB dongles from [RTL-SDR Blog](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
-- USB dongles from [Nooelec](https://www.nooelec.com/store/)
-- from [Nooelec](https://www.nooelec.com/store/)
-- HackRF One device from [Great Scott Gadgets](https://greatscottgadgets.com/hackrf/one/)
-- ...
+| Vendor                                                             | Device        | Frequencies         |
+| ------------------------------------------------------------------ | ------------- | ------------------- |
+| Generic                                                            | DVB-T tuner   | 24 Mhz - 1.766 Ghz  |
+| [RTL-SDR Blog](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) | RTL-SDR v3/v4 | 500 kHz – 1.766 GHz |
+| [Nooelec](https://www.nooelec.com/store/)                          | NESDR SMArt   | 100 kHz - 1.750 GHz |
+| [Great Scott Gadgets](https://greatscottgadgets.com/hackrf/one/)   | HackRF One    | 1 MHz - 6 GHz       |
+
+Note that frequency range depends on device architecture and some bands could require specific sampling mode.
 
 ## Software
 
 There are a few software applications you could use to start playing with SDR:
 
-- [Gqrx](http://gqrx.dk/)
-- [SDR Angel](https://rgetz.github.io/sdrangel/)
-- [SDR Console](https://www.sdr-radio.com/Console)
-- [SDR#](https://airspy.com/download/)
-- [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus)
-- ...
+| Author            | Software                                                           | Platforms                  |
+| ----------------- | ------------------------------------------------------------------ | -------------------------- |
+| Charles J. Cliffe | [CubicSDR](https://github.com/cjcliffe/CubicSDR)                   | Windows, Linux, MacOS      |
+| Alexandru Csete   | [Gqrx](https://github.com/gqrx-sdr/gqrx)                           | Windows, Linux, MacOS      |
+| Edouard Griffiths | [SDR Angel](https://github.com/f4exb/sdrangel)                     | Windows, Linux, MacOS      |
+| SDR-radio.com     | [SDR Console](https://www.sdr-radio.com/Console)                   | Windows                    |
+| Alexandre Rouma   | [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus) (SDR Sharp) | Windows, Linux, MacOS, BSD |
+| Airspy            | [SDR#](https://airspy.com/download/) (SDR Plus Plus)               | Windows                    |
 
 ## Tools
 
