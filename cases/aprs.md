@@ -26,7 +26,8 @@ A decoded APRS line usually shows the sender callsign, SSID (like -9 for mobile)
 
 Mapping software uses the coordinates and symbol codes to draw icons (cars, balloons, weather stations, etc.) with tracks showing their movement over time.
 
-![](gfx/afsk1200decoder.png)
+![](https://www.rtl-sdr.com/wp-content/uploads/2013/04/dump1090.png)
+_(source: Alexandru Csete @YouTube)_
 
 ### Quick tutorial
 
@@ -39,3 +40,4 @@ Mapping software uses the coordinates and symbol codes to draw icons (cars, ball
 
 - [Automatic Packet Reporting System](https://www.aprs.org/)
 - [Aprs.fi web service](https://aprs.fi/)
+- [Decoding APRS traffic with qtmm](https://www.youtube.com/watch?v=ROeHT0lGLqw)
