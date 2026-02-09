@@ -1,6 +1,6 @@
 # FM decoding
 
-FM decoding with SDR means taking a radio signal whose **frequency** is wiggled by audio (frequency modulation, FM) and using software on a computer to turn that back into sound, instead of using analog radio circuitry.
+FM decoding with SDR means taking a radio signal whose frequency is wiggled by audio (frequency modulation, FM) and using software on a computer to turn that back into sound, instead of using analog radio circuitry.
 
 ## Introduction
 
@@ -10,7 +10,7 @@ An SDR (software-defined radio) stick or board converts the radio-frequency sign
 
 Your SDR software then does in software what a classic FM radio did with hardware: tuning, filtering, FM demodulation, and audio output.
 
-A simple mental picture: your SDR grabs a chunk of spectrum around, say, 100.7 MHz, then your software “zooms in” on that station, strips away the carrier, measures how fast the signal’s phase/frequency is changing, and converts those variations into audio samples you can send to the sound card.
+A simple mental picture: your SDR grabs a chunk of spectrum around specific frequency, then your software “zooms in” on that station, strips away the carrier, measures how fast the signal’s phase/frequency is changing, and converts those variations into audio samples you can send to the sound card.
 
 ## Quick tutorial
 
