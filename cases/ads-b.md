@@ -10,13 +10,13 @@ Each equipped aircraft regularly broadcasts short digital messages that include 
 
 ### Decoding ADS-B
 
-In the air, ADS‑B messages are transmitted as a stream of radio pulses (pulse‑position modulation) at 1090 MHz, not as audio tones like APRS.
+In the air, ADS‑B messages are transmitted as a stream of radio pulses (pulse‑position modulation) at **1090 MHz**, not as audio tones like APRS.
 
 Decoding means capturing those RF pulses with a receiver, turning them into bits, and then interpreting the bits as fields such as latitude/longitude, barometric altitude, ground speed, vertical rate, and emergency status.
 
 ### Decoding setup
 
-Hardware: a 1090 MHz‑capable receiver, commonly a cheap USB RTL‑SDR dongle plus an antenna tuned near 1090 MHz.
+Hardware: a **1090 MHz**‑capable receiver, commonly a cheap USB RTL‑SDR dongle plus an antenna tuned near **1090 MHz**.
 
 Software: a decoder like **dump1090** or similar, which demodulates the signal, parses the ADS‑B messages, and can feed them to a map display showing aircraft around you in real time.
 
@@ -25,6 +25,16 @@ Software: a decoder like **dump1090** or similar, which demodulates the signal, 
 For each aircraft you usually see its hex address, callsign or flight number, position, altitude, heading/track, and speed, updated roughly once per second.
 
 Many online services (e.g., radar‑style maps) are built from thousands of hobbyists doing ADS‑B decoding at home and sharing their local aircraft data.
+
+### Quick tutorial
+
+- launch dump1090 in interactive mode
+
+  `./dump1090 --interactive --net`
+
+- connect with your browser to see live traffic
+
+  `http://localhost:8080`
 
 ### See also
 
