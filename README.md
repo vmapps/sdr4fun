@@ -54,10 +54,11 @@ A WebSDR is a software-defined radio receiver that is connected to the internet 
 
 There are various benefits to adopt WebSDR :
 
-- No hardware/software required : You can listen to shortwave, amateur bands, and other signals without buying a radio, antenna, or SDR dongle yourself, which is ideal for beginners or people in apartments.
-- Global access : You can use receivers located all over the world, so you can hear stations and propagation conditions that are impossible to receive from your own location.
-- Better reception than at home : Many servers use good antennas and low-noise locations, so reception quality can exceed that of a typical urban home setup.
-- Learning and experimentation: WebSDR lets you see whole bands on a waterfall display, explore different modes (AM, FM, SSB, CW, digital), and learn about SDR concepts without needing to install software or drivers.
+- No hardware/software required : You can listen to shortwave, amateur bands, and other signals without buying a radio, antenna, or SDR dongle yourself, which is ideal for beginners or people in apartments
+- Global access : You can use receivers located all over the world, so you can hear stations and propagation conditions that are impossible to receive from your own location
+- Better reception than at home : Many servers use good antennas and low-noise locations, so reception quality can exceed that of a typical urban home setup
+- Learning and experimentation: WebSDR lets you see whole bands on a waterfall display, explore different modes (AM, FM, SSB, CW, digital), and learn about SDR concepts without needing to install software or drivers
+- Convenience and portability : Everything runs in a browser, so it works from almost any device and OS with just an internet connection, with no complex setup
 
 [WebSDR.org](http://websdr.org/) is a project initiated by Pieter-Tjerk de Boer providing access via browser to multiple SDR receivers worldwide covering the complete shortwave spectrum.
 
