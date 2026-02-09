@@ -27,13 +27,14 @@ A decoded APRS line usually shows the sender callsign, SSID (like -9 for mobile)
 Mapping software uses the coordinates and symbol codes to draw icons (cars, balloons, weather stations, etc.) with tracks showing their movement over time.
 
 ![](https://www.rtl-sdr.com/wp-content/uploads/2013/04/dump1090.png)
+
 _(source: Alexandru Csete @YouTube)_
 
 ### Quick tutorial
 
 - run `gqrx` software defined radio
 - set center frequency to `144.800 Mhz`
-- in `Tools` menu, chosse `AFSK1200 Decoder``
+- in `Tools` menu, choose `AFSK1200 Decoder`
 - APRS decoded packets will be displayed in new window
 
 ### See also

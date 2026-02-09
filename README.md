@@ -5,6 +5,7 @@ Sharing various stuff on Software-Defined Radio :
 - [Introduction](#introduction)
 - [Hardware](#hardware)
 - [Software](#software)
+- [WebSDR](#websdr)
 - [Tools](#tools)
 - [Use-cases](#use-cases)
 - [Scripts](#scripts)
@@ -13,7 +14,13 @@ Sharing various stuff on Software-Defined Radio :
 
 ## Introduction
 
+What is Software-defined radio ?
+
 > _[Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) also named SDR is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system (source: Wikipedia)._
+
+Important note !
+
+Listening and decoding communications is generally allowed, but recording or sharing communications, or trying to break encryption, may be restricted by local law in your country.
 
 ## Hardware
 
@@ -40,6 +47,19 @@ There are a few software applications you could use to start playing with SDR:
 | SDR-radio.com     | [SDR Console](https://www.sdr-radio.com/Console)                   | Windows                    |
 | Alexandre Rouma   | [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus) (SDR Sharp) | Windows, Linux, MacOS, BSD |
 | Airspy            | [SDR#](https://airspy.com/download/) (SDR Plus Plus)               | Windows                    |
+
+## WebSDR
+
+A WebSDR is a software-defined radio receiver that is connected to the internet and can be tuned and listened to by many users at the same time via a web browser. In practice, it means someone hosts a radio and antenna at their location, and you control that receiver remotely from your computer or phone.
+
+There are various benefits to adopt WebSDR :
+
+- No hardware/software required : You can listen to shortwave, amateur bands, and other signals without buying a radio, antenna, or SDR dongle yourself, which is ideal for beginners or people in apartments.
+- Global access : You can use receivers located all over the world, so you can hear stations and propagation conditions that are impossible to receive from your own location.
+- Better reception than at home : Many servers use good antennas and low-noise locations, so reception quality can exceed that of a typical urban home setup.
+- Learning and experimentation: WebSDR lets you see whole bands on a waterfall display, explore different modes (AM, FM, SSB, CW, digital), and learn about SDR concepts without needing to install software or drivers.
+
+[WebSDR.org](http://websdr.org/) is a project initiated by Pieter-Tjerk de Boer providing access via browser to multiple SDR receivers worldwide covering the complete shortwave spectrum.
 
 ## Tools
 
@@ -68,7 +88,7 @@ There are a few use-cases you could consider to start playing with SDR:
 - NOAA-APT 15/18/19
 - Numbers stations
 - OTH Radar monitoring
-- PMR446 decoding
+- [PMR446 decoding](cases/pmr446.md)
 - POCSAG decoding
 
 ## Scripts

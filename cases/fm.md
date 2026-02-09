@@ -13,6 +13,7 @@ Your SDR software then does in software what a classic FM radio did with hardwar
 A simple mental picture: your SDR grabs a chunk of spectrum around specific frequency, then your software “zooms in” on that station, strips away the carrier, measures how fast the signal’s phase/frequency is changing, and converts those variations into audio samples you can send to the sound card.
 
 ![](https://payatu.com/wp-content/uploads/2017/11/fm.bmp)
+
 _(source: payatu.com)_
 
 ## Quick tutorial
