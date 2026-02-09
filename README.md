@@ -16,11 +16,11 @@ Sharing various stuff on Software-Defined Radio :
 
 What is Software-defined radio ?
 
-> _[Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) also named SDR is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system (source: Wikipedia)._
+[Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) also named SDR, is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system (source: Wikipedia).
 
-Important note !
-
-Listening and decoding communications is generally allowed, but recording or sharing communications, or trying to break encryption, may be restricted by local law in your country.
+> **Important note**
+>
+> Listening and decoding communications is generally allowed, but recording or sharing communications, or trying to break encryption, may be restricted by local law in your country.
 
 ## Hardware
 
