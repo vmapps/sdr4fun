@@ -61,7 +61,7 @@ There are a few use-cases you could consider to start playing with SDR:
 - AM radios
 - [ADS-B tracking](cases/ads-b.md)
 - [APRS decoding](cases/aprs.md)
-- FM radios
+- [FM radio](cases/fm.md)
 - HAM radio
 - ISS Radio & TV
 - LPD433 decoding

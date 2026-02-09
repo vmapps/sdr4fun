@@ -28,7 +28,7 @@ Many online services (e.g., radar‑style maps) are built from thousands of hobb
 
 ### Quick tutorial
 
-- launch dump1090 in interactive mode
+- launch `dump1090` in interactive mode
 
   `./dump1090 --interactive --net`
 
