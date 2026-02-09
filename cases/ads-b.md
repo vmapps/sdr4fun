@@ -26,6 +26,8 @@ For each aircraft you usually see its hex address, callsign or flight number, po
 
 Many online services (e.g., radar‑style maps) are built from thousands of hobbyists doing ADS‑B decoding at home and sharing their local aircraft data.
 
+![](gfx/dump1090.png)
+
 ### Quick tutorial
 
 - launch `dump1090` in interactive mode
