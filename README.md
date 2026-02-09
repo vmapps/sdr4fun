@@ -46,13 +46,18 @@ There are a few software applications you could use to start playing with SDR:
 There are a few software add-ons you could also use to start playing with SDR:
 
 - [direwolf](https://github.com/wb2osz/direwolf) : Decoded Information from Radio Emissions for Windows Or Linux Fans
+
 - [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
+
 - [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
+
 - [multimon-ng](https://github.com/EliasOenal/multimon-ng) : decoder for multiple protocols
+
 - [rtl-sdr](https://osmocom.org/projects/rtl-sdr/wiki) : RTL drivers and utils
+
 - [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
+
 - [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
-- ...
 
 ## Use Cases
 
@@ -66,11 +71,38 @@ There are a few use-cases you could consider to start playing with SDR:
 
 ### APRS decoding
 
+- APRS (Automatic Packet Reporting System) is a digital system used mainly by radio amateurs to send real‑time information such as GPS position, short text messages, and weather data.
+
+- These data are sent as short packets over VHF/UHF (for example around **144.800 Mhz in Europe** or **144.390 MHz** in many regions) and can be shown on maps or lists of stations.
+
+- On the air, APRS packets are audio tones (**AFSK1200**) that sound like fast modem noises; a modem (TNC or software) converts those tones into digital bits.
+
+- APRS decoding is the process where software takes that bitstream (AX.25 frames), checks it, and extracts fields such as callsign, path (digipeaters used), latitude/longitude, altitude, speed, and free‑text messages.
+
+- A radio tuned to the APRS frequency outputs audio, which you feed into a sound card or dedicated modem connected to a computer or microcontroller.
+
+- Software tools such as **Direwolf** or **MultiPSK** demodulate and decode the APRS packets into text, then APRS programs (e.g., mapping software) display stations on a map or list and can log or forward them to Internet APRS servers.
+
+- See also:
+  - https://www.aprs.org/
+  - https://aprs.fi/
+
+### What you see after decoding
+
+- A decoded APRS line usually shows the sender callsign, SSID (like -9 for mobile), digipeater path, timestamp, coordinates, and optional data like course, speed, or sensor values in a compact text format. [reddit](https://www.reddit.com/r/APRS/comments/kz50w8/how_to_decode_aprs_messages/)
+- Mapping software uses the coordinates and symbol codes to draw icons (cars, balloons, weather stations, etc.) with tracks showing their movement over time. [en.wikipedia](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System)
+
+If you tell me what hardware or software you have (for example SDR, handheld radio, Raspberry Pi), I can outline concrete steps for you to start decoding APRS yourself.
+
 ### FM radios
 
 ### HAM radio
 
+### ISS Radio & TV
+
 ### LPD433 decoding
+
+### NOAA-APT 15/18/19
 
 ### Numbers stations
 
@@ -142,8 +174,11 @@ There are a few web resources helpful when you would start playing with SDR:
   ](https://en.wikipedia.org/wiki/ALS162_time_signal)
 - [AM broadcasting](https://en.wikipedia.org/wiki/AM_broadcasting)
 - [Amateur Radio](https://en.wikipedia.org/wiki/Amateur_radio) (HAM)
+- [Amateur Radio on the International Space Station](https://en.wikipedia.org/wiki/Amateur_Radio_on_the_International_Space_Station) (ARISS)
 - [Automatic Dependent Surveillance Broadcast](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) (ADS-B)
 - [Automatic Packet Reporting System](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) (APRS)
+- [Automatic picture transmission
+  ](https://en.wikipedia.org/wiki/Automatic_picture_transmission) (APT)
 - [Duga radar](https://en.wikipedia.org/wiki/Duga_radar) (aka _Russian Woodpecker_)
 - [Earth–Moon–Earth communication](https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication) (Moon bouncing)
 - [FM broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
