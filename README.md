@@ -103,7 +103,7 @@ There are a few use-cases you could consider to start playing with SDR:
 - [FM radios](cases/fm.md)
 - HAM radio
 - ISS Radio & TV
-- LPD433 decoding
+- [LPD433 decoding](cases/lpd433.md)
 - NOAA-APT 15/18/19
 - Numbers stations
 - OTH Radar monitoring
