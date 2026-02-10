@@ -24,6 +24,16 @@ What is Software-defined radio ?
 
 ## Hardware
 
+An SDR (software defined radio) hardware device is the physical radio front end that converts real-world radio waves into digital samples (and back), so that almost all signal processing can be done in software.
+
+SDR hardware typically includes:
+
+- RF front end (tuner, low-noise amplifiers, filters) to select and condition a band of frequencies
+- High‑speed ADCs (and often DACs) that digitize incoming RF (and synthesize outgoing RF) as raw I/Q samples
+- A programmable processing section such as FPGA, DSP, SoC, or a USB/ethernet interface to stream samples to a host computer for software processing
+
+In short, “SDR hardware” is the configurable radio front-end plus converters and processing/IO that replace most traditional fixed-function RF circuitry (mixers, demodulators, etc.) with a flexible, software-controlled platform.
+
 There are a few hardware devices you could use to start playing with SDR:
 
 | Vendor                                                             | Device        | Frequencies         |
@@ -36,6 +46,16 @@ There are a few hardware devices you could use to start playing with SDR:
 Note that frequency range depends on device architecture and some bands could require specific sampling mode.
 
 ## Software
+
+SDR software refers to the programs and applications used in Software-Defined Radio (SDR) systems. These replace traditional hardware components like mixers, filters, and modulators with software running on general-purpose computers or embedded processors.
+
+SDR software processes radio signals digitally after an analog-to-digital converter captures RF input, enabling flexible tuning, demodulation, and protocol support without hardware changes. It handles tasks like filtering, frequency modulation, and signal enhancement for applications from amateur radio to 5G testing.
+
+SDR software typically includes:
+
+- Switching frequencies, modes (e.g., FM, SSB, digital), or standards via software updates
+- Hardware pairing with SDR devices featuring FPGAs, DSPs, or sound cards as the RF front end
+- Spectrum monitoring, prototyping wireless systems, and real-time analysis in labs or field tests
 
 There are a few software applications you could use to start playing with SDR:
 
@@ -60,7 +80,7 @@ There are various benefits to adopt WebSDR :
 - Learning and experimentation: WebSDR lets you see whole bands on a waterfall display, explore different modes (AM, FM, SSB, CW, digital), and learn about SDR concepts without needing to install software or drivers
 - Convenience and portability : Everything runs in a browser, so it works from almost any device and OS with just an internet connection, with no complex setup
 
-[WebSDR.org](http://websdr.org/) is a project initiated by Pieter-Tjerk de Boer providing access via browser to multiple SDR receivers worldwide covering the complete shortwave spectrum.
+Thanks to the amateur radio club ETGD at the University of Twente, you can listen to and control a short-wave receiver with their [Wide-band WebSDR](http://websdr.ewi.utwente.nl:8901/). Launched in 2008, it is the very first WebSDR site ever.
 
 ## Tools
 
@@ -143,11 +163,13 @@ ncat -l -u -p ${PORT} \
 
 There are a few web resources helpful when you would start playing with SDR:
 
-- [Priyom.org](https://priyom.org/)
-- [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
-- ...
+- [Priyom.org](https://priyom.org/) : international group of radio enthusiasts seeking out mysterious stations
+- [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide) : wiki to help identifying radio signals through sounds samples and waterfall images
+- [WebSDR.org](http://websdr.org/) : project providing web access to worldwide SDR receivers covering complete shortwave spectrum
 
 ## References
+
+Please find below some links to useful Wikipedia articles on various topics related to SDR:
 
 - [Airband](https://en.wikipedia.org/wiki/Airband)
 - [ALS162 time signal

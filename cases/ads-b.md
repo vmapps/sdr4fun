@@ -42,5 +42,6 @@ _(screenshot from rtl-sdr.com)_
 
 ### See also
 
+- [ADS-B](http://sigidwiki.com/wiki/ADS-B) at sigidwiki.com
 - [ADS-B Exchange community](https://www.adsbexchange.com/)
 - [ADS-B using dump1090 for the Raspberry Pi](https://www.satsignal.eu/raspberry-pi/dump1090.html)

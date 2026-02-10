@@ -39,6 +39,7 @@ _(source: Alexandru Csete @YouTube)_
 
 ### See also
 
+- [APRS](https://www.sigidwiki.com/wiki/APRS) at sigidwiki.com
 - [Automatic Packet Reporting System](https://www.aprs.org/)
 - [Aprs.fi web service](https://aprs.fi/)
 - [Decoding APRS traffic with qtmm](https://www.youtube.com/watch?v=ROeHT0lGLqw)
