@@ -100,7 +100,7 @@ There are a few use-cases you could consider to start playing with SDR:
 - [AM radios](cases/am.md)
 - [ADS-B tracking](cases/ads-b.md)
 - [APRS decoding](cases/aprs.md)
-- [FM radio](cases/fm.md)
+- [FM radios](cases/fm.md)
 - HAM radio
 - ISS Radio & TV
 - LPD433 decoding
@@ -190,3 +190,4 @@ Please find below some links to useful Wikipedia articles on various topics rela
 - [Private Mobile Radio, 446 MHz](https://en.wikipedia.org/wiki/PMR446) (PMR446)
 - [Radio-paging code No. 1](https://en.wikipedia.org/wiki/POCSAG) (POCSAG)
 - [UVB-76](https://en.wikipedia.org/wiki/UVB-76) (aka _The Buzzer_)
+- [VHF omnidirectional range](https://en.wikipedia.org/wiki/VHF_omnidirectional_range)

@@ -22,7 +22,6 @@ _(source: stanford.edu)_
 
 ## See also
 
-- [FM Broadcast Radio](https://www.sigidwiki.com/wiki/FM_Broadcast_Radio) at sigidwiki.com
-- [Listening to FM using RTL-SDR and GQRX](https://payatu.com/blog/listening-to-fm-using-rtl-sdr-and-gqrx/)
-- [Decoding FM radio Signals using SDR](https://www.hackster.io/thabiso/decoding-fm-radio-signals-using-software-defined-radio-36fa46)
-- [RTL-SDR FM Receiver using GNU Radio](https://wiki.gnuradio.org/index.php?title=RTL-SDR_FM_Receiver)
+- [Amplitude Modulation (AM)](<https://www.sigidwiki.com/wiki/Amplitude_Modulation_(AM)>) at sigidwiki.com
+- [RTL-SDR for AM on GNU Radio](https://jeremyclark.ca/wp/telecom/rtl-sdr-for-am-on-gnu-radio/)
+- [How to Demodulate an AM/FM Signal Using Software](https://eureka.patsnap.com/article/how-to-demodulate-an-amfm-signal-using-software-sdr-example)
