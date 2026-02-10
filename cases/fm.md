@@ -19,7 +19,7 @@ _(source: payatu.com)_
 ## Quick tutorial
 
 - run `gqrx` software defined radio
-- set center frequency to one from `87,5 MHz - 108 MHz`range
+- set center frequency to one from `87,5 MHz - 108 MHz` range
 - select `WFM / WBFM / FM` decoding mode
 
 another method could be :

@@ -14,8 +14,6 @@ Sharing various stuff on Software-Defined Radio :
 
 ## Introduction
 
-What is Software-defined radio ?
-
 [Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) also named SDR, is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system (source: Wikipedia).
 
 > **Important note**
@@ -99,7 +97,7 @@ There are a few software add-ons you could also use to start playing with SDR:
 There are a few use-cases you could consider to start playing with SDR:
 
 - Airband traffic
-- AM radios
+- [AM radios](cases/am.md)
 - [ADS-B tracking](cases/ads-b.md)
 - [APRS decoding](cases/aprs.md)
 - [FM radio](cases/fm.md)
