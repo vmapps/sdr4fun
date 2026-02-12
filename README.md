@@ -109,6 +109,8 @@ There are a few use-cases you could consider to start playing with SDR:
 - OTH Radar monitoring
 - [PMR446 decoding](cases/pmr446.md)
 - POCSAG decoding
+- Radiosonde decoding
+- VOR decoding
 
 ## Scripts
 
@@ -189,5 +191,6 @@ Please find below some links to useful Wikipedia articles on various topics rela
 - [Over-the-horizon radar](https://en.wikipedia.org/wiki/Over-the-horizon_radar) (OTH radar)
 - [Private Mobile Radio, 446 MHz](https://en.wikipedia.org/wiki/PMR446) (PMR446)
 - [Radio-paging code No. 1](https://en.wikipedia.org/wiki/POCSAG) (POCSAG)
+- [Radiosonde](https://en.wikipedia.org/wiki/Radiosonde)
 - [UVB-76](https://en.wikipedia.org/wiki/UVB-76) (aka _The Buzzer_)
 - [VHF omnidirectional range](https://en.wikipedia.org/wiki/VHF_omnidirectional_range)
