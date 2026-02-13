@@ -7,7 +7,8 @@ Sharing various stuff on Software-Defined Radio :
 - [Software](#software)
 - [WebSDR](#websdr)
 - [Tools](#tools)
-- [Use-cases](#use-cases)
+- [Use cases](#use-cases)
+- [Band plans](#band-plans)
 - [Scripts](#scripts)
 - [Resources](#resources)
 - [References](#references)
@@ -91,26 +92,73 @@ There are a few software add-ons you could also use to start playing with SDR:
 - [rtl-sdr](https://osmocom.org/projects/rtl-sdr/wiki) : RTL drivers and utils
 - [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
 - [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
+- [VOR decoder](https://github.com/martinber/vor-python-decoder)
 
-## Use Cases
+## Use cases
+
+RTL-SDR hardare devices and software apps could be used to a lot of fun stuff:
+
+**Listening and monitoring**
+
+- Airband and ATC: Listen to aircraft–tower communications in the VHF airband
+- Public service and utilities: Monitor police, fire, EMS, and other analog or unencrypted digital services where this is legal
+- Broadcast radio: Receive FM broadcast, DAB/DAB+ digital radio, and sometimes analogue TV audio
+- Amateur radio: Listen to local ham repeaters, simplex channels, and digital modes
+
+**Tracking and data decoding**
+
+- Aircraft tracking: Decode ADS‑B signals (1090 MHz) to plot aircraft positions on a map
+- Ship tracking: Receive AIS signals to track vessels near coasts and harbors
+- Pagers and telemetry: Decode POCSAG/FLEX pagers, taxi data, and similar one‑way data systems
+- Sensors and meters: Receive 433 MHz or 868 MHz weather stations, TPMS, smart power/water meters, and other ISM‑band devices
+
+**Space, weather, and science**
+
+- Weather satellites: Receive images from NOAA APT and other weather satellites with a suitable antenna
+- ISS and satellites: Listen to Amateur Radio on the ISS and other satellites, sometimes receive SSTV images
+- Simple radio astronomy: Experiment with hydrogen line reception and meteor scatter detection
+
+**RF analysis**
+
+- Spectrum analyzer: Scan bands to see where signals exist, measure signal strength vs frequency
+- Reverse engineering: Capture unknown RF protocols (e.g., remotes, key fobs) and analyze them with tools like GNU Radio
+- Noise and interference hunting: Find local interference sources, check antenna performance, and characterize filters
+
+**Practical everyday uses**
+
+- Home monitoring: Log your smart meter, weather sensors, or car tire pressure sensors
+- Learning platform: Practice DSP, modulation/demodulation, and protocol decoding with cheap hardware
+
+**Some cases**
 
 There are a few use-cases you could consider to start playing with SDR:
 
-- Airband traffic
-- [AM radios](cases/am.md)
-- [ADS-B tracking](cases/ads-b.md)
-- [APRS decoding](cases/aprs.md)
-- [FM radios](cases/fm.md)
-- HAM radio
-- ISS Radio & TV
-- [LPD433 decoding](cases/lpd433.md)
-- NOAA-APT 15/18/19
-- Numbers stations
-- OTH Radar monitoring
-- [PMR446 decoding](cases/pmr446.md)
-- POCSAG decoding
-- Radiosonde decoding
-- VOR decoding
+| Case                               | Mode               | Band                                         |
+| ---------------------------------- | ------------------ | -------------------------------------------- |
+| Airband traffic                    | AM                 | 108 - 137 MHz                                |
+| [AM radios](cases/am.md)           | AM                 | specific to areas                            |
+| [ADS-B tracking](cases/ads-b.md)   | PPM                | 978 MHz or 1090 MHz                          |
+| [APRS decoding](cases/aprs.md)     | AFSK               | 144 - 146 MHz                                |
+| [FM radios](cases/fm.md)           | WFM                | 87 - 108 MHz                                 |
+| HAM radio                          | AM                 | see note on bands                            |
+| ISS Radio & TV                     | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
+| [LPD433 decoding](cases/lpd433.md) | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
+| NOAA-APT 15/18/19                  | WFM                | 137 - 138 Mhz (End Of Life)                  |
+| Numbers stations                   | undefined          |                                              |
+| OTH Radar monitoring               |                    | 3 - 30 MHz                                   |
+| [PMR446 decoding](cases/pmr446.md) | NFM                | 446.000 - 446.200 Mhz                        |
+| POCSAG decoding                    | FSK, DFSK          | specific to countries                        |
+| Radiosonde decoding                | AM                 | 400.150 - 406 MHz <br/> 1668.400 - 1700 MHz  |
+| VOR decoding                       | AM                 | 108 - 118 Mhz                                |
+
+## Band plans
+
+When looking for a specific range of frequencies, you could use radio spectrum band plans that subdivide allocated frequency bands into segments for specific uses. These plans, set by bodies like ARRL (US), IARU (International), or RSGB (UK), promote orderly operation and reduce interference.
+
+- [Amateur radio frequency allocations](https://en.wikipedia.org/wiki/Amateur_radio_frequency_allocations)
+- [ARRL Band Plan](http://www.arrl.org/band-plan)
+- [Radio Frequency Bands](https://terasense.com/terahertz-technology/radio-frequency-bands/)
+- [Radio Spectrum](https://en.wikipedia.org/wiki/Radio_spectrum)
 
 ## Scripts
 
