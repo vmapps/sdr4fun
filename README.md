@@ -28,17 +28,17 @@ An SDR (software defined radio) hardware device is the physical radio front end 
 SDR hardware typically includes:
 
 - RF front end (tuner, low-noise amplifiers, filters) to select and condition a band of frequencies
-- High‑speed ADCs (and often DACs) that digitize incoming RF (and synthesize outgoing RF) as raw I/Q samples
+- High-speed ADCs (and often DACs) that digitize incoming RF (and synthesize outgoing RF) as raw I/Q samples
 - A programmable processing section such as FPGA, DSP, SoC, or a USB/ethernet interface to stream samples to a host computer for software processing
 
-In short, “SDR hardware” is the configurable radio front-end plus converters and processing/IO that replace most traditional fixed-function RF circuitry (mixers, demodulators, etc.) with a flexible, software-controlled platform.
+In short, SDR hardware is the configurable radio front-end plus converters and processing/IO that replace most traditional fixed-function RF circuitry (mixers, demodulators, etc.) with a flexible, software-controlled platform.
 
 There are a few hardware devices you could use to start playing with SDR:
 
 | Vendor                                                             | Device        | Frequencies         |
 | ------------------------------------------------------------------ | ------------- | ------------------- |
 | Generic                                                            | DVB-T tuner   | 24 Mhz - 1.766 Ghz  |
-| [RTL-SDR Blog](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) | RTL-SDR v3/v4 | 500 kHz – 1.766 GHz |
+| [RTL-SDR Blog](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) | RTL-SDR v3/v4 | 500 kHz - 1.766 GHz |
 | [Nooelec](https://www.nooelec.com/store/)                          | NESDR SMArt   | 100 kHz - 1.750 GHz |
 | [Great Scott Gadgets](https://greatscottgadgets.com/hackrf/one/)   | HackRF One    | 1 MHz - 6 GHz       |
 
@@ -100,17 +100,17 @@ RTL-SDR hardare devices and software apps could be used to a lot of fun stuff:
 
 **Listening and monitoring**
 
-- Airband and ATC: Listen to aircraft–tower communications in the VHF airband
+- Airband and ATC: Listen to aircraft-tower communications in the VHF airband
 - Public service and utilities: Monitor police, fire, EMS, and other analog or unencrypted digital services where this is legal
 - Broadcast radio: Receive FM broadcast, DAB/DAB+ digital radio, and sometimes analogue TV audio
 - Amateur radio: Listen to local ham repeaters, simplex channels, and digital modes
 
 **Tracking and data decoding**
 
-- Aircraft tracking: Decode ADS‑B signals (1090 MHz) to plot aircraft positions on a map
+- Aircraft tracking: Decode ADS-B signals (1090 MHz) to plot aircraft positions on a map
 - Ship tracking: Receive AIS signals to track vessels near coasts and harbors
-- Pagers and telemetry: Decode POCSAG/FLEX pagers, taxi data, and similar one‑way data systems
-- Sensors and meters: Receive 433 MHz or 868 MHz weather stations, TPMS, smart power/water meters, and other ISM‑band devices
+- Pagers and telemetry: Decode POCSAG/FLEX pagers, taxi data, and similar one-way data systems
+- Sensors and meters: Receive 433 MHz or 868 MHz weather stations, TPMS, smart power/water meters, and other ISM-band devices
 
 **Space, weather, and science**
 
@@ -144,7 +144,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | ISS Radio & TV                     | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
 | [LPD433 decoding](cases/lpd433.md) | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
 | NOAA-APT 15/18/19                  | WFM                | 137 - 138 Mhz (End Of Life)                  |
-| Numbers stations                   | undefined          |                                              |
+| Numbers stations                   |                    | undefined                                    |
 | OTH Radar monitoring               |                    | 3 - 30 MHz                                   |
 | [PMR446 decoding](cases/pmr446.md) | NFM                | 446.000 - 446.200 Mhz                        |
 | POCSAG decoding                    | FSK, DFSK          | specific to countries                        |
@@ -230,7 +230,7 @@ Please find below some links to useful Wikipedia articles on various topics rela
 - [Automatic picture transmission
   ](https://en.wikipedia.org/wiki/Automatic_picture_transmission) (APT)
 - [Duga radar](https://en.wikipedia.org/wiki/Duga_radar) (aka _Russian Woodpecker_)
-- [Earth–Moon–Earth communication](https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication) (Moon bouncing)
+- [Earth-Moon-Earth communication](https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication) (Moon bouncing)
 - [FM broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
 - [GRAVES System](<https://en.wikipedia.org/wiki/GRAVES_(system)>)
 - [Low Power Device 433 MHz](https://en.wikipedia.org/wiki/LPD433) (LPD433)
