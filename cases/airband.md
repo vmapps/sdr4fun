@@ -15,9 +15,9 @@ Military aircraft typically use a separate UHF AM band roughly **220–400 MHz**
 
 A scanner or radio that covers **118–137** MHz in **AM** mode, or a RTL‑SDR USB dongle and SDR software could be used to listen to airband communications. An antenna tuned for around **120–130 MHz**; even a simple quarter‑wave ground‑plane or an “airband” whip placed high and in the clear greatly improves reception.
 
-![]()
+![](https://i.ytimg.com/vi/yIuU8ROYGVE/maxresdefault.jpg)
 
-_(source: payatu.com)_
+_(source: youtube.com)_
 
 ## Quick tutorial
 
@@ -51,3 +51,4 @@ Transmitting on airband without proper authorization is illegal and potentially 
 - [RTL-SDR for VHF Air Band AM on GNU Radio](https://jeremyclark.ca/wp/telecom/rtl-sdr-for-vhf-air-band-am-on-gnu-radio/)
 - [Live ATC](https://www.liveatc.net/)
 - [Listening to air band voices](https://edwardstark.website/listening-to-air-band-voices/)
+- [Listening to Air Traffic control using SDR Radio](https://www.youtube.com/watch?v=yIuU8ROYGVE)
