@@ -89,8 +89,9 @@ There are a few software add-ons you could also use to start playing with SDR:
 - [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
 - [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
 - [multimon-ng](https://github.com/EliasOenal/multimon-ng) : decoder for multiple protocols
+- [rtl-433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
+- [rtl_airband](https://github.com/rtl-airband/RTLSDR-Airband) : airband radio receiver for analog voice channels
 - [rtl-sdr](https://osmocom.org/projects/rtl-sdr/wiki) : RTL drivers and utils
-- [rtl_433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
 - [Qtmm AFSK1200 Decoder](https://sourceforge.net/projects/qtmm/)
 - [VOR decoder](https://github.com/martinber/vor-python-decoder)
 
@@ -135,7 +136,7 @@ There are a few use-cases you could consider to start playing with SDR:
 
 | Case                                | Mode               | Band                                         |
 | ----------------------------------- | ------------------ | -------------------------------------------- |
-| Airband traffic                     | AM                 | 108 - 137 MHz                                |
+| [Airband traffic](cases/airband.md) | AM                 | 108 - 137 MHz                                |
 | [AM radios](cases/am.md)            | AM                 | 540 - 160 kHz                                |
 | [ADS-B tracking](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
 | [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
@@ -221,15 +222,14 @@ There are a few web resources helpful when you would start playing with SDR:
 Please find below some links to useful Wikipedia articles on various topics related to SDR:
 
 - [Airband](https://en.wikipedia.org/wiki/Airband)
-- [ALS162 time signal
-  ](https://en.wikipedia.org/wiki/ALS162_time_signal)
+- [ALS162 time signal](https://en.wikipedia.org/wiki/ALS162_time_signal)
 - [AM broadcasting](https://en.wikipedia.org/wiki/AM_broadcasting)
-- [Amateur Radio](https://en.wikipedia.org/wiki/Amateur_radio) (HAM)
-- [Amateur Radio on the International Space Station](https://en.wikipedia.org/wiki/Amateur_Radio_on_the_International_Space_Station) (ARISS)
 - [Automatic Dependent Surveillance Broadcast](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) (ADS-B)
 - [Automatic Packet Reporting System](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) (APRS)
-- [Automatic picture transmission
-  ](https://en.wikipedia.org/wiki/Automatic_picture_transmission) (APT)
+- [Automatic Picture Transmission](https://en.wikipedia.org/wiki/Automatic_picture_transmission) (APT)
+- [Amateur Radio](https://en.wikipedia.org/wiki/Amateur_radio) (HAM)
+- [Amateur Radio on the International Space Station](https://en.wikipedia.org/wiki/Amateur_Radio_on_the_International_Space_Station) (ARISS)
+- [Automatic Terminal Information Service](https://en.wikipedia.org/wiki/Automatic_terminal_information_service) (ATIS)
 - [Duga radar](https://en.wikipedia.org/wiki/Duga_radar) (aka _Russian Woodpecker_)
 - [Earth-Moon-Earth communication](https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication) (Moon bouncing)
 - [FM broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
