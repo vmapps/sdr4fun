@@ -23,7 +23,7 @@ These are ideal if you just want to hear it in a browser or on your phone.
 
 If you want more control (change filters, bandwidth, etc.), use a web-based SDR (software-defined radio) or your own SDR hardware and software.
 
-![](https://www.sigidwiki.com/images/thumb/e/e5/Websdr_buzzer.jpg/200px-Websdr_buzzer.jpg)
+![](https://www.sigidwiki.com/images/e/e5/Websdr_buzzer.jpg)
 
 _(source: sigidwiki.com)_
 
