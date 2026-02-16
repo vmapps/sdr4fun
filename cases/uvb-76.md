@@ -23,9 +23,9 @@ These are ideal if you just want to hear it in a browser or on your phone.
 
 If you want more control (change filters, bandwidth, etc.), use a web-based SDR (software-defined radio) or your own SDR hardware and software.
 
-![](https://www.sigidwiki.com/images/e/e5/Websdr_buzzer.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/c/c1/Frequencysounds_of_UVB-76.png)
 
-_(source: sigidwiki.com)_
+_(source: wikimedia.org)_
 
 ## Quick tutorial
 
