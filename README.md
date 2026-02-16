@@ -133,23 +133,24 @@ RTL-SDR hardare devices and software apps could be used to a lot of fun stuff:
 
 There are a few use-cases you could consider to start playing with SDR:
 
-| Case                               | Mode               | Band                                         |
-| ---------------------------------- | ------------------ | -------------------------------------------- |
-| Airband traffic                    | AM                 | 108 - 137 MHz                                |
-| [AM radios](cases/am.md)           | AM                 | specific to areas                            |
-| [ADS-B tracking](cases/ads-b.md)   | PPM                | 978 MHz or 1090 MHz                          |
-| [APRS decoding](cases/aprs.md)     | AFSK               | 144 - 146 MHz                                |
-| [FM radios](cases/fm.md)           | WFM                | 87 - 108 MHz                                 |
-| HAM radio                          | AM                 | see note on bands                            |
-| ISS Radio & TV                     | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
-| [LPD433 decoding](cases/lpd433.md) | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
-| NOAA-APT 15/18/19                  | WFM                | 137 - 138 Mhz (End Of Life)                  |
-| Numbers stations                   |                    | undefined                                    |
-| OTH Radar monitoring               |                    | 3 - 30 MHz                                   |
-| [PMR446 decoding](cases/pmr446.md) | NFM                | 446.000 - 446.200 Mhz                        |
-| POCSAG decoding                    | FSK, DFSK          | specific to countries                        |
-| Radiosonde decoding                | AM                 | 400.150 - 406 MHz <br/> 1668.400 - 1700 MHz  |
-| VOR decoding                       | AM                 | 108 - 118 Mhz                                |
+| Case                                | Mode               | Band                                         |
+| ----------------------------------- | ------------------ | -------------------------------------------- |
+| Airband traffic                     | AM                 | 108 - 137 MHz                                |
+| [AM radios](cases/am.md)            | AM                 | 540 - 160 kHz                                |
+| [ADS-B tracking](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
+| [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
+| [FM radios](cases/fm.md)            | WFM                | 87 - 108 MHz                                 |
+| HAM radio                           | AM                 | _(see note on radio bands)_                  |
+| ISS Radio & TV                      | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
+| [LPD433 decoding](cases/lpd433.md)  | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
+| NOAA-APT 15/18/19                   | WFM                | 137 - 138 Mhz (End Of Life)                  |
+| Numbers stations                    |                    | _(undefined)_                                |
+| OTH Radar monitoring                |                    | 3 - 30 MHz                                   |
+| [PMR446 decoding](cases/pmr446.md)  | NFM                | 446.000 - 446.200 Mhz                        |
+| POCSAG decoding                     | FSK, DFSK          | _(specific to countries)_                    |
+| Radiosonde decoding                 | AM                 | 400.150 - 406 MHz <br/> 1668.400 - 1700 MHz  |
+| [UVB-76 listening](cases/uvb-76.md) | USB                | 4625 kHz                                     |
+| VOR decoding                        | AM                 | 108 - 118 Mhz                                |
 
 ## Band plans
 
