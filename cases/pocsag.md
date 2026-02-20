@@ -23,29 +23,24 @@ Pagers are logically grouped into 8 “frames”, and each pager only listens to
 
 POCSAG decoding typically involves these steps:
 
-1. Receive and demodulate the signal
+- Receive and demodulate the signal
+  - A radio receiver (scanner, SDR, etc.) is tuned to the pager frequency and outputs baseband audio of the FSK signal
+  - Software then looks at that audio and converts the two tones into a stream of 0/1 bits at the correct baud rate
 
-- A radio receiver (scanner, SDR, etc.) is tuned to the pager frequency and outputs baseband audio of the FSK signal
-- Software then looks at that audio and converts the two tones into a stream of 0/1 bits at the correct baud rate
+- Find preamble and sync
+  - The decoder searches the bit stream for the long 010101… preamble and then for the fixed sync codeword (0x7CD215D8)
+  - Once found, it can align to 32‑bit codeword boundaries and batch/frame structure
 
-2. Find preamble and sync
+- Error checking and correction
+  - For each 32‑bit codeword, the BCH and parity bits are used to detect and correct bit errors caused by noise or weak signal
 
-- The decoder searches the bit stream for the long 010101… preamble and then for the fixed sync codeword (0x7CD215D8)
-- Once found, it can align to 32‑bit codeword boundaries and batch/frame structure
+- Interpret address vs data codewords
+  - An address codeword contains the pager’s address (“cap code”) and a few “function bits” telling if following messages are numeric or alphanumeric.
+  - Data codewords carry the actual message bits, which can be: Numeric (often BCD digits), or Alphanumeric (7‑bit ASCII, with bits sent least‑significant‑bit first and sometimes crossing codeword boundaries)
 
-3. Error checking and correction
-
-- For each 32‑bit codeword, the BCH and parity bits are used to detect and correct bit errors caused by noise or weak signal
-
-4. Interpret address vs data codewords
-
-- An address codeword contains the pager’s address (“cap code”) and a few “function bits” telling if following messages are numeric or alphanumeric.
-- Data codewords carry the actual message bits, which can be: Numeric (often BCD digits), or Alphanumeric (7‑bit ASCII, with bits sent least‑significant‑bit first and sometimes crossing codeword boundaries)
-
-5. Reassemble and display the message
-
-- The decoder chains multiple data codewords for one address until another address, sync, or idle pattern appears
-- For alphanumeric messages, it groups bits into 7‑bit characters (after bit‑order fixing) and converts them to readable text
+- Reassemble and display the message
+  - The decoder chains multiple data codewords for one address until another address, sync, or idle pattern appears
+  - For alphanumeric messages, it groups bits into 7‑bit characters (after bit‑order fixing) and converts them to readable text
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*muRcITz49LHYI-OT)
 
