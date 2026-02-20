@@ -148,7 +148,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | Numbers stations                    |                    | _(undefined)_                                |
 | OTH Radar monitoring                |                    | 3 - 30 MHz                                   |
 | [PMR446 decoding](cases/pmr446.md)  | NFM                | 446.000 - 446.200 Mhz                        |
-| POCSAG decoding                     | FSK, DFSK          | _(specific to countries)_                    |
+| [POCSAG decoding](cases/pocsag.md)  | FSK, DFSK          | _(specific to countries)_                    |
 | Radiosonde decoding                 | AM                 | 400.150 - 406 MHz <br/> 1668.400 - 1700 MHz  |
 | [UVB-76 listening](cases/uvb-76.md) | USB                | 4625 kHz                                     |
 | VOR decoding                        | AM                 | 108 - 118 Mhz                                |
