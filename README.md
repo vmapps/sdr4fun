@@ -214,6 +214,9 @@ ncat -l -u -p ${PORT} \
 There are a few web resources helpful when you would start playing with SDR:
 
 - [Priyom.org](https://priyom.org/) : international group of radio enthusiasts seeking out mysterious stations
+- [PySDR](https://pysdr.org/) : guide to SDR and DSP using Python
+- [RTL-SDR blog](https://www.rtl-sdr.com/) : RTL2832U and software defined radio news and projects.
+- [r/RTLSDR](https://www.reddit.com/r/RTLSDR/) : subreddit for the low-cost software radio (SDR) community
 - [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide) : wiki to help identifying radio signals through sounds samples and waterfall images
 - [WebSDR.org](http://websdr.org/) : project providing web access to worldwide SDR receivers covering complete shortwave spectrum
 
