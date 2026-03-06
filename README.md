@@ -85,7 +85,7 @@ Thanks to the amateur radio club ETGD at the University of Twente, you can liste
 
 There are a few software add-ons you could also use to start playing with SDR:
 
-- [ADSB.im](https://adsb.im/) : tracker for aircraft, ships, or even weather balloons
+- [ADSB.im](https://adsb.im/) : aircraft, ships, or even weather balloons tracker for Raspberry Pi
 - [direwolf](https://github.com/wb2osz/direwolf) : Decoded Information from Radio Emissions for Windows Or Linux Fans
 - [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
 - [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
