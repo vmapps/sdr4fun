@@ -16,9 +16,9 @@ Decoding means capturing those RF pulses with a receiver, turning them into bits
 
 ### Decoding setup
 
-Hardware: a **1090 MHz**‑capable receiver, commonly a cheap USB RTL‑SDR dongle plus an antenna tuned near **1090 MHz**.
+Hardware: a **1090 MHz** capable receiver, commonly a cheap USB RTL‑SDR dongle plus an antenna tuned near **1090 MHz**.
 
-Software: a decoder like **dump1090** or similar, which demodulates the signal, parses the ADS‑B messages, and can feed them to a map display showing aircraft around you in real time.
+Software: a decoder like **dump1090** or similar, which demodulates the signal, parses the ADS‑B messages, and can feed them to a map display showing aircrafts around you in real time.
 
 ### After decoding
 
