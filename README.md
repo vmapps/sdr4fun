@@ -139,7 +139,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | Case                                | Mode               | Band                                         |
 | ----------------------------------- | ------------------ | -------------------------------------------- |
 | [Airband traffic](cases/airband.md) | AM                 | 108 - 137 MHz                                |
-| [AIS decoding](cases/ais.md)        | NFM                | 161.975 MHz (AIS 1)<br/>162.025 MHz (AIS 2 ) |
+| [AIS decoding](cases/ais.md)        | NFM                | 161.975 MHz (AIS 1)<br/>162.025 MHz (AIS 2)  |
 | [AM radios](cases/am.md)            | AM                 | 540 - 160 kHz                                |
 | [ADS-B decoding](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
 | [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
