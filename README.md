@@ -85,6 +85,7 @@ Thanks to the amateur radio club ETGD at the University of Twente, you can liste
 
 There are a few software add-ons you could also use to start playing with SDR:
 
+- [ADSB.im](https://adsb.im/) : tracker for aircraft, ships, or even weather balloons
 - [direwolf](https://github.com/wb2osz/direwolf) : Decoded Information from Radio Emissions for Windows Or Linux Fans
 - [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
 - [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
@@ -137,6 +138,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | Case                                | Mode               | Band                                         |
 | ----------------------------------- | ------------------ | -------------------------------------------- |
 | [Airband traffic](cases/airband.md) | AM                 | 108 - 137 MHz                                |
+| AIS tracking                        | NFM                | 161.975 MHz (AIS 1)<br/>162.025 MHz (AIS2 )  |
 | [AM radios](cases/am.md)            | AM                 | 540 - 160 kHz                                |
 | [ADS-B tracking](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
 | [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
@@ -228,6 +230,7 @@ Please find below some links to useful Wikipedia articles on various topics rela
 - [ALS162 time signal](https://en.wikipedia.org/wiki/ALS162_time_signal)
 - [AM broadcasting](https://en.wikipedia.org/wiki/AM_broadcasting)
 - [Automatic Dependent Surveillance Broadcast](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) (ADS-B)
+- [Automatic Identification System](https://en.wikipedia.org/wiki/Automatic_identification_system) (AIS)
 - [Automatic Packet Reporting System](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) (APRS)
 - [Automatic Picture Transmission](https://en.wikipedia.org/wiki/Automatic_picture_transmission) (APT)
 - [Amateur Radio](https://en.wikipedia.org/wiki/Amateur_radio) (HAM)
