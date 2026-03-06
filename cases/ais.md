@@ -42,6 +42,7 @@ _(screenshot from aisfriends.com)_
 
 ### See also
 
-- [AIS](https://www.sigidwiki.com/wiki/AIS) at sigidwiki.com
+- [Automatic Identification System (AIS)](https://www.sigidwiki.com/wiki/AIS) at sigidwiki.com
 - [AIS Catcher community](https://www.aiscatcher.org/l)
 - [AIS Friends network](https://www.aisfriends.com/)
+- [Maritime Mobile Service Identity (MMSI)](https://en.wikipedia.org/wiki/Maritime_Mobile_Service_Identity)
