@@ -34,7 +34,7 @@ _(screenshot from aisfriends.com)_
 
 - launch `AIS-catcher` in interactive mode
 
-  `./AIS-catcher -N 8100 CDN <path>/webassets`
+  `./AIS-catcher -N 8100`
 
 - connect with your browser to see live traffic
 
