@@ -212,6 +212,16 @@ ncat -l -u -p ${PORT} \
  | multimon-ng -n -t raw -p -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -a FLEX -a FLEX_NEXT -f auto --timestamp /dev/stdin
 ```
 
+**Decoding CW flows (Morse)**
+
+```
+PORT=7355
+
+ncat -l -u -p ${PORT} \
+ | sox --type raw -esigned-integer --bits 16 --rate 48000 - --type raw -esigned-integer --bits 16 --rate 22050 - \
+ | multimon-ng -t raw -p -a MORSE_CW -f auto -
+```
+
 ## Resources
 
 There are a few web resources helpful when you would start playing with SDR:
