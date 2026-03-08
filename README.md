@@ -236,7 +236,7 @@ There are a few web resources helpful when you would start playing with SDR:
 
 ## References
 
-Please find below some links to useful Wikipedia articles on various topics related to SDR:
+Find below some links to useful and highly interesting articles from Wikipedia on various topics related to radio stuff:
 
 - [Airband](https://en.wikipedia.org/wiki/Airband)
 - [ALS162 time signal](https://en.wikipedia.org/wiki/ALS162_time_signal)
@@ -248,16 +248,21 @@ Please find below some links to useful Wikipedia articles on various topics rela
 - [Amateur Radio](https://en.wikipedia.org/wiki/Amateur_radio) (HAM)
 - [Amateur Radio on the International Space Station](https://en.wikipedia.org/wiki/Amateur_Radio_on_the_International_Space_Station) (ARISS)
 - [Automatic Terminal Information Service](https://en.wikipedia.org/wiki/Automatic_terminal_information_service) (ATIS)
+- [Carrier wave](https://en.wikipedia.org/wiki/Carrier_wave) (CW)
+- [DXing](https://en.wikipedia.org/wiki/DXing)
 - [Duga radar](https://en.wikipedia.org/wiki/Duga_radar) (aka _Russian Woodpecker_)
 - [Earth-Moon-Earth communication](https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication) (Moon bouncing)
 - [FM broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting)
 - [GRAVES System](<https://en.wikipedia.org/wiki/GRAVES_(system)>)
 - [Low Power Device 433 MHz](https://en.wikipedia.org/wiki/LPD433) (LPD433)
 - [Meteor burst communications](https://en.wikipedia.org/wiki/Meteor_burst_communications) (Meteor Scatter)
+- [Morse code](https://en.wikipedia.org/wiki/Morse_code)
+- [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet)
 - [Numbers station](https://en.wikipedia.org/wiki/Numbers_station)
 - [Over-the-horizon radar](https://en.wikipedia.org/wiki/Over-the-horizon_radar) (OTH radar)
 - [Private Mobile Radio, 446 MHz](https://en.wikipedia.org/wiki/PMR446) (PMR446)
 - [Radio-paging code No. 1](https://en.wikipedia.org/wiki/POCSAG) (POCSAG)
 - [Radiosonde](https://en.wikipedia.org/wiki/Radiosonde)
+- [The Pip](https://en.wikipedia.org/wiki/The_Pip)
 - [UVB-76](https://en.wikipedia.org/wiki/UVB-76) (aka _The Buzzer_)
 - [VHF omnidirectional range](https://en.wikipedia.org/wiki/VHF_omnidirectional_range)
