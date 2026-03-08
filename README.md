@@ -58,14 +58,14 @@ SDR software typically includes:
 
 There are a few software applications you could use to start playing with SDR:
 
-| Author            | Software                                                           | Platforms                  |
-| ----------------- | ------------------------------------------------------------------ | -------------------------- |
-| Charles J. Cliffe | [CubicSDR](https://github.com/cjcliffe/CubicSDR)                   | Windows, Linux, MacOS      |
-| Alexandru Csete   | [Gqrx](https://github.com/gqrx-sdr/gqrx)                           | Windows, Linux, MacOS      |
-| Edouard Griffiths | [SDR Angel](https://github.com/f4exb/sdrangel)                     | Windows, Linux, MacOS      |
-| SDR-radio.com     | [SDR Console](https://www.sdr-radio.com/Console)                   | Windows                    |
-| Alexandre Rouma   | [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus) (SDR Sharp) | Windows, Linux, MacOS, BSD |
-| Airspy            | [SDR#](https://airspy.com/download/) (SDR Plus Plus)               | Windows                    |
+| Author            | Software                                               | Platforms                  |
+| ----------------- | ------------------------------------------------------ | -------------------------- |
+| Charles J. Cliffe | [CubicSDR](https://github.com/cjcliffe/CubicSDR)       | Windows, Linux, MacOS      |
+| Alexandru Csete   | [Gqrx](https://github.com/gqrx-sdr/gqrx)               | Windows, Linux, MacOS      |
+| Edouard Griffiths | [SDR Angel](https://github.com/f4exb/sdrangel)         | Windows, Linux, MacOS      |
+| SDR-radio.com     | [SDR Console](https://www.sdr-radio.com/Console)       | Windows                    |
+| Alexandre Rouma   | [SDR++](https://github.com/AlexandreRouma/SDRPlusPlus) | Windows, Linux, MacOS, BSD |
+| Airspy            | [SDR#](https://airspy.com/download/) (SDR Sharp)       | Windows                    |
 
 ## WebSDR
 
@@ -144,7 +144,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | [ADS-B decoding](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
 | [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
 | [FM radios](cases/fm.md)            | WFM                | 87 - 108 MHz                                 |
-| HAM radio                           | AM                 | _(see note on radio bands)_                  |
+| [HAM radio](cases/ham.md)           | AM, LSB, USB       | _(see note on radio bands)_                  |
 | ISS Radio & TV                      | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
 | [LPD433 decoding](cases/lpd433.md)  | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
 | NOAA-APT 15/18/19                   | WFM                | 137 - 138 Mhz (End Of Life)                  |
@@ -156,12 +156,13 @@ There are a few use-cases you could consider to start playing with SDR:
 | [UVB-76 listening](cases/uvb-76.md) | USB                | 4625 kHz                                     |
 | VOR decoding                        | AM                 | 108 - 118 Mhz                                |
 
-## Band plans
+## Radio Band plans
 
 When looking for a specific range of frequencies, you could use radio spectrum band plans that subdivide allocated frequency bands into segments for specific uses. These plans, set by bodies like ARRL (US), IARU (International), or RSGB (UK), promote orderly operation and reduce interference.
 
 - [Amateur radio frequency allocations](https://en.wikipedia.org/wiki/Amateur_radio_frequency_allocations)
 - [ARRL Band Plan](http://www.arrl.org/band-plan)
+- [Open-source Band Plans for SDR Software](https://github.com/Arrin-KN1E/SDR-Band-Plans)
 - [Radio Frequency Bands](https://terasense.com/terahertz-technology/radio-frequency-bands/)
 - [Radio Spectrum](https://en.wikipedia.org/wiki/Radio_spectrum)
 
