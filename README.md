@@ -144,7 +144,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | [ADS-B decoding](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
 | [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
 | [FM radios](cases/fm.md)            | WFM                | 87 - 108 MHz                                 |
-| [HAM radio](cases/ham.md)           | AM, LSB, USB       | _(see note on radio bands)_                  |
+| [HAM radio](cases/ham.md)           | AM, NFM, LSB, USB  | _(see note on radio bands)_                  |
 | ISS Radio & TV                      | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
 | [LPD433 decoding](cases/lpd433.md)  | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
 | NOAA-APT 15/18/19                   | WFM                | 137 - 138 Mhz (End Of Life)                  |
