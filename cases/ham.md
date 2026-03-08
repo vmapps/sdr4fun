@@ -31,9 +31,9 @@ However you should respect some international rules:
 
 Imagine using a walkie‑talkie, but much more powerful and flexible, with the ability to reach another person in another country (or in space) using your own equipment and knowledge of radio.
 
-![](https://i.ytimg.com/vi/yIuU8ROYGVE/maxresdefault.jpg)
+![](https://newhams.info/wp-content/uploads/2019/01/hdsdr.jpg)
 
-_(source: youtube.com)_
+_(source: newhams.info)_
 
 ## Frequencies
 
@@ -68,5 +68,9 @@ Common calling / “listen here” frequencies are places where many hams monito
 
 ## See also
 
-- [American Radio Relay League](https://www.arrl.org/)
+- [American Radio Relay League](http://www.arrl.org/) (AARL)
+- [ARRL - Ham Radio 101](https://www.arrl.org/ham-radio-101)
+- [Ham Radio Secrets](https://www.hamradiosecrets.com/)
+- [NewHams.info](https://newhams.info/)
 - [QRZ Callsign Database](https://www.qrz.com/)
+- [RTL-SDR.com #ham](https://www.rtl-sdr.com/tag/ham-radio/)
