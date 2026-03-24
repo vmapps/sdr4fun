@@ -90,6 +90,7 @@ There are a few software add-ons you could also use to start playing with SDR:
 - [direwolf](https://github.com/wb2osz/direwolf) : Decoded Information from Radio Emissions for Windows Or Linux Fans
 - [dsd](https://github.com/szechyjs/dsd) : decoder for several digital voice formats
 - [dump1090](https://github.com/antirez/dump1090) : Mode S decoder specifically designed for RTLSDR devices
+- [gnss-sdr](https://github.com/gnss-sdr/gnss-sdr) : receiver for Global Navigation Satellite System's signals
 - [multimon-ng](https://github.com/EliasOenal/multimon-ng) : decoder for multiple protocols
 - [rtl-433](https://github.com/merbanan/rtl_433) : generic data receiverfor 433/868/325/345/915 MHz bands
 - [rtl_airband](https://github.com/rtl-airband/RTLSDR-Airband) : airband radio receiver for analog voice channels
@@ -144,6 +145,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | [ADS-B decoding](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
 | [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
 | [FM radios](cases/fm.md)            | WFM                | 87 - 108 MHz                                 |
+| GNSS decoding                       | BPSK, QPSK, BOC    | 1100 - 1600 Mhz                              |
 | [HAM radio](cases/ham.md)           | AM, NFM, LSB, USB  | _(see note on radio bands)_                  |
 | ISS Radio & TV                      | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
 | [LPD433 decoding](cases/lpd433.md)  | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
@@ -263,6 +265,7 @@ Find below some links to useful and highly interesting articles from Wikipedia o
 - [Private Mobile Radio, 446 MHz](https://en.wikipedia.org/wiki/PMR446) (PMR446)
 - [Radio-paging code No. 1](https://en.wikipedia.org/wiki/POCSAG) (POCSAG)
 - [Radiosonde](https://en.wikipedia.org/wiki/Radiosonde)
+- [Satellite Navigation](https://en.wikipedia.org/wiki/Satellite_navigation) (GNSS, RNSS)
 - [The Pip](https://en.wikipedia.org/wiki/The_Pip)
 - [UVB-76](https://en.wikipedia.org/wiki/UVB-76) (aka _The Buzzer_)
 - [VHF omnidirectional range](https://en.wikipedia.org/wiki/VHF_omnidirectional_range)
