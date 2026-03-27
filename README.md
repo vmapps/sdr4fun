@@ -137,26 +137,26 @@ RTL-SDR hardare devices and software apps could be used to a lot of fun stuff:
 
 There are a few use-cases you could consider to start playing with SDR:
 
-| Case                                | Mode               | Band                                         |
-| ----------------------------------- | ------------------ | -------------------------------------------- |
-| [Airband traffic](cases/airband.md) | AM                 | 108 - 137 MHz                                |
-| [AIS decoding](cases/ais.md)        | NFM                | 161.975 MHz (AIS 1)<br/>162.025 MHz (AIS 2)  |
-| [AM radios](cases/am.md)            | AM                 | 540 - 160 kHz                                |
-| [ADS-B decoding](cases/ads-b.md)    | PPM                | 978 MHz or 1090 MHz                          |
-| [APRS decoding](cases/aprs.md)      | AFSK               | 144 - 146 MHz                                |
-| [FM radios](cases/fm.md)            | WFM                | 87 - 108 MHz                                 |
-| GNSS decoding                       | BPSK, QPSK, BOC    | 1100 - 1600 Mhz                              |
-| [HAM radio](cases/ham.md)           | AM, NFM, LSB, USB  | _(see note on radio bands)_                  |
-| ISS Radio & TV                      | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
-| [LPD433 decoding](cases/lpd433.md)  | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
-| NOAA-APT 15/18/19                   | WFM                | 137 - 138 Mhz (End Of Life)                  |
-| Numbers stations                    |                    | _(undefined)_                                |
-| OTH Radar monitoring                |                    | 3 - 30 MHz                                   |
-| [PMR446 decoding](cases/pmr446.md)  | NFM                | 446.000 - 446.200 Mhz<br/>466 - 469 Mhz      |
-| [POCSAG decoding](cases/pocsag.md)  | FSK, DFSK          | _(specific to countries)_                    |
-| Radiosonde decoding                 | AM                 | 400.150 - 406 MHz <br/> 1668.400 - 1700 MHz  |
-| [UVB-76 listening](cases/uvb-76.md) | USB                | 4625 kHz                                     |
-| VOR decoding                        | AM                 | 108 - 118 Mhz                                |
+| Case                                 | Mode               | Band                                         |
+| ------------------------------------ | ------------------ | -------------------------------------------- |
+| [Airband traffic](cases/airband.md)  | AM                 | 108 - 137 MHz                                |
+| [AIS decoding](cases/ais.md)         | NFM                | 161.975 MHz (AIS 1)<br/>162.025 MHz (AIS 2)  |
+| [AM radios](cases/am.md)             | AM                 | 540 - 160 kHz                                |
+| [ADS-B decoding](cases/ads-b.md)     | PPM                | 978 MHz or 1090 MHz                          |
+| [APRS decoding](cases/aprs.md)       | AFSK               | 144 - 146 MHz                                |
+| [FM radios](cases/fm.md)             | WFM                | 87 - 108 MHz                                 |
+| GNSS decoding                        | BPSK, QPSK, BOC    | 1100 - 1600 Mhz                              |
+| [HAM radio](cases/ham.md)            | AM, NFM, LSB, USB  | _(see note on radio bands)_                  |
+| ISS Radio & TV                       | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
+| [LPD433 decoding](cases/lpd433.md)   | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
+| NOAA-APT 15/18/19                    | WFM                | 137 - 138 Mhz (End Of Life)                  |
+| [Numbers stations](cases/numbers.md) | USB                | _(undefined)_                                |
+| OTH Radar monitoring                 |                    | 3 - 30 MHz                                   |
+| [PMR446 decoding](cases/pmr446.md)   | NFM                | 446.000 - 446.200 Mhz<br/>466 - 469 Mhz      |
+| [POCSAG decoding](cases/pocsag.md)   | FSK, DFSK          | _(specific to countries)_                    |
+| Radiosonde decoding                  | AM                 | 400.150 - 406 MHz <br/> 1668.400 - 1700 MHz  |
+| [UVB-76 listening](cases/uvb-76.md)  | USB                | 4625 kHz                                     |
+| VOR decoding                         | AM                 | 108 - 118 Mhz                                |
 
 ## Radio Band plans
 
@@ -266,6 +266,7 @@ Find below some links to useful and highly interesting articles from Wikipedia o
 - [Radio-paging code No. 1](https://en.wikipedia.org/wiki/POCSAG) (POCSAG)
 - [Radiosonde](https://en.wikipedia.org/wiki/Radiosonde)
 - [Satellite Navigation](https://en.wikipedia.org/wiki/Satellite_navigation) (GNSS, RNSS)
+- [Standard Frequency and Time Signal Service](https://en.wikipedia.org/wiki/Standard_frequency_and_time_signal_service)
 - [The Pip](https://en.wikipedia.org/wiki/The_Pip)
 - [UVB-76](https://en.wikipedia.org/wiki/UVB-76) (aka _The Buzzer_)
 - [VHF omnidirectional range](https://en.wikipedia.org/wiki/VHF_omnidirectional_range)
