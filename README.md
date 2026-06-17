@@ -149,6 +149,7 @@ There are a few use-cases you could consider to start playing with SDR:
 | [HAM radio](cases/ham.md)            | AM, NFM, LSB, USB  | _(see note on radio bands)_                  |
 | ISS Radio & TV                       | WFM                | 145.800 Mhz (voice)<br/>437.800 Mhz (packet) |
 | [LPD433 decoding](cases/lpd433.md)   | ASK, OOK, FSK, PSK | 433 - 434 MHz                                |
+| Meteor Scatter  Comms | AM | _(various bands)_ |
 | NOAA-APT 15/18/19                    | WFM                | 137 - 138 Mhz (End Of Life)                  |
 | [Numbers stations](cases/numbers.md) | AM, CW, RTTY, USB  | _(undefined)_                                |
 | OTH Radar monitoring                 |                    | 3 - 30 MHz                                   |
